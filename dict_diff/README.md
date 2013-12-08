@@ -14,7 +14,7 @@ I you are interested only in changes:
     print 'New items:'
     set_after - set_before
 
-[dict_diff.py] shows more detailed changes presentation.
+[dict_diff.py](dict_diff.py) shows more detailed changes presentation.
 
 Limitations: Dictionaries can contain only immutable values (but many python
 types can bee easily freezed to immutable representation).
