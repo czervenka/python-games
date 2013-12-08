@@ -1,9 +1,10 @@
 Callable module
 ===============
 It is nice to play with Python magic. This is en example how to pretend a
-callable modul.
+callable module.
 
-Use this idea with extreme caution as this kind of magic makes mostly more difficulties than profit.
+Use this idea with extreme caution as this kind of magic makes mostly more
+difficulties than profit.
 
 Example
 -------
