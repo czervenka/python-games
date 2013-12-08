@@ -8,7 +8,7 @@ def dict_diff(before, after):
     return {
         'removed   ': {k:v for k,v in set_a - set_b if k not in after},
         'added     ': {k:v for k,v in set_b - set_a if k not in before},
-        'changed (from, to)  ': {k:(v, after[k]) for k,v in set_a - set_b if k in after and k in before},
+        'changed (from, to)  ': {k:(v, after[k]) for k,v in set_a - set_b if k in after},
         'unchanged ': dict(set_a.intersection(set_b)),
     }
 
