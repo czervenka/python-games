@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-
 def dict_diff(before, after):
     set_a = set(before.items())
     set_b = set(after.items())
@@ -13,7 +12,9 @@ def dict_diff(before, after):
     }
 
 
-if __name__ == '__main__':
+'''
+    # Example:
+
     before = {
         'a': 1,
         'b': 2,
@@ -34,12 +35,11 @@ if __name__ == '__main__':
     print '\nChanges:'
     pprint(dict_diff(before, after))
 
-    '''
-    Changes:
-    {
-        'added':     {'y': 6},
-        'changed':   {'b': (2, 3)},
-        'removed':   {'a': 1},
-        'unchanged': {'x': 5}
-    }
-    '''
+    >>> Changes:
+    >>> {
+    >>>     'added':     {'y': 6},
+    >>>     'changed':   {'b': (2, 3)},
+    >>>     'removed':   {'a': 1},
+    >>>     'unchanged': {'x': 5}
+    >>> }
+'''
